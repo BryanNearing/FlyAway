@@ -1,0 +1,86 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+	<display-name>Archetype Created Web Application</display-name>
+	<servlet>
+		<servlet-name>MainPage</servlet-name>
+		<display-name>MainPage</display-name>
+		<description></description>
+		<servlet-class>com.Servlets.MainPage</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>AdminLogin</servlet-name>
+		<display-name>AdminLogin</display-name>
+		<description></description>
+		<servlet-class>com.Servlets.AdminLogin</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>ChangePassword</servlet-name>
+		<display-name>ChangePassword</display-name>
+		<description></description>
+		<servlet-class>com.Servlets.ChangePassword</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>Logout</servlet-name>
+		<display-name>Logout</display-name>
+		<description></description>
+		<servlet-class>com.Servlets.Logout</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>AddAirline</servlet-name>
+		<display-name>AddAirline</display-name>
+		<description></description>
+		<servlet-class>com.Servlets.AddAirline</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>AddPlace</servlet-name>
+		<display-name>AddPlace</display-name>
+		<description></description>
+		<servlet-class>com.Servlets.AddPlace</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>AddFlight</servlet-name>
+		<display-name>AddFlight</display-name>
+		<description></description>
+		<servlet-class>com.Servlets.AddFlight</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>TakeInPersonInfo</servlet-name>
+		<display-name>TakeInPersonInfo</display-name>
+		<description></description>
+		<servlet-class>com.Servlets.TakeInPersonInfo</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>TakeInBillingInfo</servlet-name>
+		<display-name>TakeInBillingInfo</display-name>
+		<description></description>
+		<servlet-class>com.Servlets.TakeInBillingInfo</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ChangePassword</servlet-name>
+		<url-pattern>/ChangePassword</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>AddAirline</servlet-name>
+		<url-pattern>/AddAirline</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>AddPlace</servlet-name>
+		<url-pattern>/AddPlace</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>AddFlight</servlet-name>
+		<url-pattern>/AddFlight</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>TakeInPersonInfo</servlet-name>
+		<url-pattern>/TakeInPersonInfo</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>TakeInBillingInfo</servlet-name>
+		<url-pattern>/TakeInBillingInfo</url-pattern>
+	</servlet-mapping>
+
+</web-app>
